@@ -1,5 +1,6 @@
 {
   "name": "HA Energy Card",
   "content_in_root": true,
-  "filename": "ha-energy-card.js"
+  "filename": "ha-energy-card.js",
+  "render_readme": true
 }
