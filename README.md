@@ -1,1 +1,1 @@
-# Energie-Monats-Karte-f-r-Trockner-und-Waschmaschine
+# Energie-Monats-Karte-fuer-Trockner-und-Waschmaschine
