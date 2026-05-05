@@ -1,8 +1,6 @@
-# Energie Karte für Trockner und Waschmaschine
+# Energy Card for washing machine and dishwasher
 
-# Bad Energy Month Card
-
-Eine Lovelace Custom Card für Home Assistant zur Anzeige von Waschmaschine, Trockner, Monatsverbrauch und Kosten.
+Eine Lovelace Custom Card für Home Assistant zur Anzeige von Waschmaschine, Trockner, Monatsverbrauch, Jahresverbrauch und Kosten.
 
 ## Installation über HACS
 
