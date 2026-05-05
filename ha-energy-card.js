@@ -4,15 +4,15 @@
 // Trockner, monatsweise navigierbar mit Jahresübersicht.
 // ============================================================
 
-class BadEnergyMonthCard extends HTMLElement {
+class HaEnergyCard extends HTMLElement {
 
   static getConfigElement() {
-    return document.createElement("bad-energy-month-card-editor");
+    return document.createElement("ha-energy-card-editor");
   }
 
   static getStubConfig() {
     return {
-      type: "custom:bad-energy-month-card"
+      type: "custom:ha-energy-card"
     };
   }
 
@@ -402,14 +402,14 @@ class BadEnergyMonthCard extends HTMLElement {
   }
 }
 
-customElements.define("bad-energy-month-card", BadEnergyMonthCard);
+customElements.define("ha-energy-card", HaEnergyCard);
 
 
 // ============================================================
 // Editor – wird im HA-Karten-Editor geladen
 // ============================================================
 
-class BadEnergyMonthCardEditor extends HTMLElement {
+class HaEnergyCardEditor extends HTMLElement {
 
   setConfig(config) {
     this.config = config || {};
@@ -470,7 +470,7 @@ class BadEnergyMonthCardEditor extends HTMLElement {
         <div class="section">Waschmaschine</div>
         <ha-entity-picker id="washer_energy" label="Waschmaschine Energie Sensor"></ha-entity-picker>
         <ha-entity-picker id="washer_status" label="Waschmaschine Status Sensor"></ha-entity-picker>
-        <ha-textfield id="washer_running_value" label="Status: Läuft" placeholder="z.B. running" required></ha-textfield>
+        <ha-textfield id="washer_running_value" label="Status: Läuft" placeholder="z.B. on" required></ha-textfield>
         <ha-entity-picker id="washer_runs_statistic" label="Waschmaschine Läufe Statistik Sensor"></ha-entity-picker>
         <div class="field-title">Waschmaschine Icon</div>
         <ha-icon-picker id="washer_icon"></ha-icon-picker>
@@ -478,7 +478,7 @@ class BadEnergyMonthCardEditor extends HTMLElement {
         <div class="section">Trockner</div>
         <ha-entity-picker id="dryer_energy" label="Trockner Energie Sensor"></ha-entity-picker>
         <ha-entity-picker id="dryer_status" label="Trockner Status Sensor"></ha-entity-picker>
-        <ha-textfield id="dryer_running_value" label="Status: Läuft" placeholder="z.B. running" required></ha-textfield>
+        <ha-textfield id="dryer_running_value" label="Status: Läuft" placeholder="z.B. on" required></ha-textfield>
         <ha-entity-picker id="dryer_runs_statistic" label="Trockner Läufe Statistik Sensor"></ha-entity-picker>
         <div class="field-title">Trockner Icon</div>
         <ha-icon-picker id="dryer_icon"></ha-icon-picker>
@@ -526,4 +526,4 @@ class BadEnergyMonthCardEditor extends HTMLElement {
   }
 }
 
-customElements.define("bad-energy-month-card-editor", BadEnergyMonthCardEditor);
+customElements.define("ha-energy-card-editor", HaEnergyCardEditor);
