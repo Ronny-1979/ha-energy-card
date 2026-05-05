@@ -1,5 +1,5 @@
 // ============================================================
-// Bad Energy Month Card – Home Assistant Custom Card
+// HA Energy Card – Home Assistant Custom Card
 // Zeigt Energie- und Kostenübersicht für Waschmaschine und
 // Trockner, monatsweise navigierbar mit Jahresübersicht.
 // ============================================================
